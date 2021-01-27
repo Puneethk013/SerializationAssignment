@@ -13,9 +13,9 @@ namespace SerializationAssignment
     {
         public int yearOfBirth;
         [NonSerialized] public int age;
-
         public void AgeCalculator()
         {
+
             age = DateTime.Now.Year - yearOfBirth;
         }
         
